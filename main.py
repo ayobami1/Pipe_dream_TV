@@ -8,8 +8,8 @@ from urllib3 import HTTPSConnectionPool
 
  #Send Message to Telegram
 def sendMessage(data):
-    tg_bot = Bot('5971347619:AAEFW--U4dvA2TE4UPAYaigx3WECFCfsCN8')
-    channel = '-1001567924918'
+    tg_bot = Bot('TOKEN')
+    channel = 'CHANNEL'
     try:
         print('--->Sending message to telegram')
         tg_bot.sendMessage(
